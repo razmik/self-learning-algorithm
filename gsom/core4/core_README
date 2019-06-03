@@ -1,0 +1,8 @@
+General Growing Self Organizing Maps.
+
+The core  module includes necessary functions to grow a GSOM using a dataset.
+This can be invoked as following;
+
+    controller = Core.Controller(generalise_params)
+    controller_start = time.time()
+    result_dict = controller.run(input_vector_database)

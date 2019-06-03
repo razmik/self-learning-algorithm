@@ -1,0 +1,719 @@
+digraph {
+	graph [bgcolor="#333333" fontcolor=white fontsize=16 label="IKASL for Collective Activity Dataset
+GSOM-SF - 0.83
+GSOM-Learn and smooth itr - 100
+GSOM-Neigh Radius - 4
+GSOM-Distance Func - DistanceFunction.COSINE
+IKASL-HT Fraction - 0.05
+GSOM-Aggr Function - AggregateFunction.PROXIMITY_AVERAGE
+GSOM-Aggr Neigh Radius - 2
+Input file folder - input/combined/" rankdir=TB]
+	node [color=white fillcolor="#006699" fontcolor=white fontname=Helvetica shape=box style=filled]
+	edge [arrowhead=open color=white fontcolor=white fontname=Courier fontsize=12 style=dashed]
+	"0,0" [label=Begin color=red shape=oval]
+	1.1 [label="Cluster 1.1
+outdoor street road city building 
+sidewalk riding people traffic man 
+1 3 4 6 9 15 19 20 21 22 23 24 32 35 36 37 44 "]
+	1.2 [label="Cluster 1.2
+outdoor sidewalk street city people 
+building standing man walking young 
+2 5 7 8 10 11 12 13 14 16 17 18 25 26 27 28 29 30 31 33 34 38 39 40 41 42 43 " color=red shape=oval]
+	2.1 [label="Cluster 2.1
+outdoor street road city building 
+sidewalk people traffic riding man 
+1 3 4 9 15 19 20 21 22 23 24 35 36 37 44 "]
+	2.2 [label="Cluster 2.2
+outdoor sidewalk walking street ground 
+people building city standing man 
+2 5 6 7 8 16 17 18 27 28 29 30 31 32 33 34 38 39 40 42 43 "]
+	2.3 [label="Cluster 2.3
+floor standing building indoor people 
+group young woman man walking 
+10 11 12 13 14 25 26 41 "]
+	3.1 [label="Cluster 3.1
+outdoor street road city building 
+sidewalk people man traffic riding 
+1 3 4 5 6 8 15 19 20 21 22 23 24 35 36 37 44 "]
+	3.2 [label="Cluster 3.2
+outdoor sidewalk street city walking 
+standing people building man woman 
+2 7 9 16 17 18 27 28 29 30 31 32 33 34 38 39 40 42 43 "]
+	3.3 [label="Cluster 3.3
+floor standing building indoor people 
+group young woman man walking 
+10 11 12 13 14 25 26 41 "]
+	4.1 [label="Cluster 4.1
+outdoor street road city building 
+sidewalk people man traffic riding 
+1 3 4 9 15 19 20 21 22 23 24 35 36 37 44 "]
+	4.2 [label="Cluster 4.2
+outdoor street sidewalk city building 
+walking people way standing man 
+2 5 6 7 8 16 17 18 27 28 29 30 31 32 33 34 38 39 42 43 "]
+	4.3 [label="Cluster 4.3
+floor standing building indoor people 
+group young woman man walking 
+10 11 12 13 14 25 26 40 41 "]
+	5.1 [label="Cluster 5.1
+outdoor street road city building 
+sidewalk people man traffic riding 
+1 3 4 6 8 15 19 20 21 22 23 24 32 35 36 37 42 44 "]
+	5.2 [label="Cluster 5.2
+outdoor sidewalk people person street 
+city group walking standing man 
+2 5 7 9 16 17 18 27 28 29 30 31 33 34 38 39 40 43 "]
+	5.3 [label="Cluster 5.3
+floor indoor group person standing 
+people building man room young 
+10 11 12 13 14 25 26 41 "]
+	6.1 [label="Cluster 6.1
+outdoor street road city building 
+sidewalk people man traffic standing 
+1 3 4 5 8 15 19 20 21 22 23 24 32 35 36 37 44 "]
+	6.2 [label="Cluster 6.2
+outdoor sidewalk street city people 
+park walking standing man young 
+2 6 7 9 16 17 18 27 28 29 30 31 33 34 38 39 42 43 "]
+	6.3 [label="Cluster 6.3
+floor indoor group person standing 
+people building man room young 
+10 11 12 13 14 25 26 40 41 "]
+	7.1 [label="Cluster 7.1
+outdoor street road city building 
+sidewalk people man standing traffic 
+1 3 4 8 15 19 20 21 22 23 24 32 35 36 37 44 "]
+	7.2 [label="Cluster 7.2
+outdoor sidewalk street city people 
+walking standing man park riding 
+2 5 6 7 9 16 17 18 27 28 29 30 33 34 38 39 42 43 "]
+	7.3 [label="Cluster 7.3
+indoor floor person people group 
+standing room woman man window 
+10 11 12 13 14 25 26 31 40 41 "]
+	8.1 [label="Cluster 8.1
+outdoor street road city building 
+sidewalk people man standing sign 
+1 3 4 5 8 9 15 19 20 21 22 23 24 32 35 36 37 42 44 "]
+	8.2 [label="Cluster 8.2
+outdoor sidewalk street people city 
+standing walking person group man 
+2 6 7 16 17 18 27 28 29 30 33 34 38 39 40 43 "]
+	8.3 [label="Cluster 8.3
+indoor floor person people group 
+standing room woman man window 
+10 11 12 13 14 25 26 31 41 "]
+	9.1 [label="Cluster 9.1
+outdoor street road city building 
+sidewalk people man standing traffic 
+1 3 4 5 8 15 19 20 21 22 23 24 32 35 36 37 42 44 "]
+	9.2 [label="Cluster 9.2
+outdoor sidewalk street city way 
+people standing walking man young 
+2 6 7 9 16 17 18 27 28 29 30 31 33 34 38 39 43 "]
+	9.3 [label="Cluster 9.3
+indoor floor person people group 
+standing room woman man window 
+10 11 12 13 14 25 26 40 41 "]
+	10.1 [label="Cluster 10.1
+outdoor street road city building 
+people man riding way sidewalk 
+1 3 4 15 19 20 21 22 23 24 32 35 36 37 44 "]
+	10.2 [label="Cluster 10.2
+outdoor sidewalk street walking city 
+people road ground standing park 
+2 5 6 7 8 9 16 17 18 27 28 29 30 31 33 34 38 39 42 43 "]
+	10.3 [label="Cluster 10.3
+indoor floor person people group 
+standing room woman man window 
+10 11 12 13 14 25 26 40 41 "]
+	11.1 [label="Cluster 11.1
+outdoor street road city building 
+sidewalk people man traffic standing 
+1 3 4 6 15 19 20 21 22 23 24 35 36 37 44 "]
+	11.2 [label="Cluster 11.2
+outdoor street sidewalk city walking 
+people building group man standing 
+2 5 7 8 9 16 17 18 27 28 29 30 31 32 33 34 38 39 42 43 "]
+	11.3 [label="Cluster 11.3
+person indoor floor people group 
+room standing building man woman 
+10 11 12 13 14 25 26 40 41 "]
+	12.1 [label="Cluster 12.1
+outdoor street road city building 
+sidewalk people traffic riding walking 
+1 3 15 19 20 21 22 23 24 35 36 37 42 44 "]
+	12.2 [label="Cluster 12.2
+outdoor sidewalk street city building 
+walking people man standing group 
+2 4 5 6 7 8 9 16 17 18 27 28 29 30 31 32 33 34 39 43 "]
+	12.3 [label="Cluster 12.3
+person indoor floor people group 
+room standing building man woman 
+10 11 12 13 14 25 26 38 40 41 "]
+	13.1 [label="Cluster 13.1
+outdoor street road city building 
+sidewalk traffic people man standing 
+1 3 8 15 19 20 21 22 23 24 35 36 37 44 "]
+	13.2 [label="Cluster 13.2
+outdoor street sidewalk city building 
+walking people road man standing 
+2 4 5 6 7 9 16 17 18 27 28 29 30 31 32 33 34 38 39 42 43 "]
+	13.3 [label="Cluster 13.3
+person indoor floor people group 
+room standing building man woman 
+10 11 12 13 14 25 26 40 41 "]
+	14.1 [label="Cluster 14.1
+outdoor road street city building 
+traffic riding sidewalk people man 
+1 3 15 19 20 21 22 23 24 35 36 37 "]
+	14.2 [label="Cluster 14.2
+outdoor sidewalk street city building 
+walking people road man group 
+2 4 5 6 7 8 9 16 17 18 27 28 29 30 31 32 33 34 38 39 42 43 44 " color=red shape=oval]
+	14.3 [label="Cluster 14.3
+person group people standing room 
+man indoor floor luggage crowd 
+10 11 12 13 14 25 26 40 41 "]
+	15.1 [label="Cluster 15.1
+outdoor road street city building 
+traffic sidewalk people man standing 
+1 3 8 15 19 20 21 22 23 24 36 37 "]
+	15.2 [label="Cluster 15.2
+outdoor sidewalk people walking street 
+building person city man standing 
+7 17 18 27 30 31 34 38 39 "]
+	15.4 [label="Cluster 15.4
+outdoor street city sidewalk building 
+walking riding woman standing group 
+2 4 5 6 9 13 16 28 29 32 33 35 42 43 44 "]
+	15.3 [label="Cluster 15.3
+person group people standing room 
+man indoor floor luggage crowd 
+10 11 12 14 25 26 40 41 "]
+	16.1 [label="Cluster 16.1
+outdoor road street city building 
+sidewalk walking people traffic man 
+1 3 8 9 15 19 20 21 22 23 24 32 36 37 "]
+	16.2 [label="Cluster 16.2
+outdoor sidewalk people walking street 
+building city person man standing 
+7 16 17 18 27 30 31 33 34 38 39 "]
+	16.4 [label="Cluster 16.4
+outdoor sidewalk street city building 
+walking people road woman standing 
+2 4 5 6 14 28 29 35 42 43 44 "]
+	16.3 [label="Cluster 16.3
+person group people standing room 
+man indoor floor luggage crowd 
+10 11 12 13 25 26 40 41 "]
+	17.1 [label="Cluster 17.1
+outdoor road street city building 
+sidewalk people traffic man standing 
+1 3 8 9 15 19 20 21 22 23 24 32 36 37 44 "]
+	17.2 [label="Cluster 17.2
+outdoor people sidewalk walking standing 
+person park group city street 
+16 17 18 27 30 31 34 38 39 40 "]
+	17.4 [label="Cluster 17.4
+outdoor street sidewalk city building 
+walking people woman standing man 
+2 4 5 6 7 28 29 33 35 42 43 "]
+	17.3 [label="Cluster 17.3
+indoor floor person people group 
+standing man room window woman 
+10 11 12 13 14 25 26 41 "]
+	18.1 [label="Cluster 18.1
+outdoor road street city building 
+sidewalk people traffic man riding 
+1 3 8 9 15 19 20 21 22 23 24 32 36 37 44 "]
+	18.2 [label="Cluster 18.2
+outdoor park sidewalk people walking 
+city street man riding standing 
+16 17 18 27 30 31 38 39 "]
+	18.4 [label="Cluster 18.4
+outdoor sidewalk street city people 
+building walking standing man woman 
+2 4 5 6 7 28 29 33 34 35 42 43 "]
+	18.3 [label="Cluster 18.3
+standing indoor floor group person 
+people building man woman young 
+10 11 12 13 14 25 26 40 41 "]
+	19.1 [label="Cluster 19.1
+outdoor road street city building 
+sidewalk traffic riding people man 
+1 3 15 19 20 21 22 23 24 32 36 37 "]
+	19.2 [label="Cluster 19.2
+outdoor sidewalk people park walking 
+city street man standing person 
+16 17 18 27 38 39 42 "]
+	19.4 [label="Cluster 19.4
+outdoor sidewalk street city building 
+people walking standing man woman 
+2 4 5 6 7 8 9 28 29 30 31 33 34 35 43 44 "]
+	19.3 [label="Cluster 19.3
+standing indoor floor group person 
+people building man woman young 
+10 11 12 13 14 25 26 40 41 "]
+	20.1 [label="Cluster 20.1
+outdoor road street city building 
+sidewalk traffic riding people man 
+1 3 8 15 19 20 21 22 23 24 32 35 36 "]
+	20.2 [label="Cluster 20.2
+outdoor people park group sidewalk 
+walking city street man standing 
+17 18 27 30 38 "]
+	20.4 [label="Cluster 20.4
+outdoor sidewalk street building city 
+people walking man standing group 
+2 4 5 6 7 9 16 28 29 31 33 34 37 39 42 43 44 "]
+	20.3 [label="Cluster 20.3
+people person standing group indoor 
+floor man woman luggage holding 
+10 11 12 13 14 25 26 40 41 "]
+	21.1 [label="Cluster 21.1
+outdoor road street city building 
+sidewalk walking way riding people 
+1 3 8 15 16 19 20 21 22 23 24 32 35 36 42 "]
+	21.4 [label="Cluster 21.4
+outdoor sidewalk street city building 
+walking people man standing road 
+2 4 5 6 7 9 28 29 31 33 34 37 38 39 43 44 "]
+	21.3 [label="Cluster 21.3
+indoor floor group people standing 
+person building man woman room 
+10 11 12 13 14 25 26 41 "]
+	21.2 [label="Cluster 21.2
+outdoor people park group sidewalk 
+walking city street man standing 
+17 18 27 30 40 "]
+	22.1 [label="Cluster 22.1
+outdoor street road city building 
+sidewalk walking people man traffic 
+1 3 8 15 19 20 21 22 23 24 29 32 35 36 37 42 "]
+	22.4 [label="Cluster 22.4
+outdoor sidewalk building people street 
+city walking person standing man 
+2 4 5 6 7 9 28 31 33 34 38 39 40 43 44 "]
+	22.3 [label="Cluster 22.3
+indoor floor people group standing 
+building person room man woman 
+10 11 12 13 14 25 26 41 "]
+	22.2 [label="Cluster 22.2
+outdoor people park group sidewalk 
+walking city street man standing 
+16 17 18 27 30 "]
+	23.1 [label="Cluster 23.1
+outdoor street road city building 
+sidewalk traffic man standing people 
+1 3 4 8 15 19 20 21 22 23 24 29 32 35 36 37 42 "]
+	23.4 [label="Cluster 23.4
+sidewalk outdoor street city building 
+walking people group standing man 
+2 5 6 7 28 31 33 34 38 39 40 43 44 "]
+	23.3 [label="Cluster 23.3
+floor indoor people group standing 
+building person room man woman 
+10 11 12 13 14 25 26 41 "]
+	23.2 [label="Cluster 23.2
+outdoor people park group sidewalk 
+walking city street man standing 
+9 16 17 18 27 30 "]
+	24.1 [label="Cluster 24.1
+outdoor street road city building 
+sidewalk traffic people way man 
+1 3 4 8 15 19 20 21 22 23 24 29 32 36 37 42 "]
+	24.4 [label="Cluster 24.4
+outdoor sidewalk street building city 
+people walking group standing man 
+2 5 7 9 28 31 33 34 35 39 43 44 "]
+	24.3 [label="Cluster 24.3
+indoor group floor person people 
+standing building room man woman 
+10 11 12 13 14 25 26 38 40 41 "]
+	24.2 [label="Cluster 24.2
+outdoor people park group sidewalk 
+walking city street man standing 
+6 16 17 18 27 30 "]
+	25.1 [label="Cluster 25.1
+outdoor street road city building 
+sidewalk walking way people busy 
+1 3 4 8 15 19 20 21 22 23 24 32 35 36 42 "]
+	25.4 [label="Cluster 25.4
+outdoor sidewalk street building city 
+people walking group standing man 
+2 5 6 7 9 28 29 30 31 33 34 37 39 43 44 "]
+	25.3 [label="Cluster 25.3
+indoor floor building standing room 
+people group person woman man 
+10 11 12 13 14 25 26 38 40 41 "]
+	25.2 [label="Cluster 25.2
+outdoor park sidewalk sport walking 
+tree people man city street 
+16 17 18 27 "]
+	26.1 [label="Cluster 26.1
+outdoor street road city sidewalk 
+building walking people man standing 
+1 3 4 8 15 19 20 21 22 23 24 29 32 36 42 "]
+	26.4 [label="Cluster 26.4
+outdoor sidewalk street people building 
+city walking person standing man 
+2 5 6 7 9 14 28 30 31 33 34 35 37 38 39 43 44 "]
+	26.3 [label="Cluster 26.3
+person people group floor standing 
+indoor man luggage woman young 
+10 11 12 13 25 26 40 41 "]
+	26.2 [label="Cluster 26.2
+outdoor park sidewalk sport walking 
+tree people man city street 
+16 17 18 27 "]
+	27.1 [label="Cluster 27.1
+outdoor road street city sidewalk 
+building walking people man standing 
+1 3 4 8 15 19 20 21 22 23 24 29 32 36 "]
+	27.4 [label="Cluster 27.4
+outdoor sidewalk street people city 
+building walking standing man woman 
+2 5 6 7 9 28 30 31 33 34 35 37 38 39 42 43 44 "]
+	27.3 [label="Cluster 27.3
+floor indoor person people group 
+standing building room woman man 
+10 11 12 13 14 25 26 40 41 "]
+	27.2 [label="Cluster 27.2
+outdoor park sidewalk sport walking 
+tree people man city street 
+16 17 18 27 "]
+	28.1 [label="Cluster 28.1
+outdoor street road city sidewalk 
+building walking people man standing 
+1 3 4 6 8 9 15 19 20 21 22 23 24 29 32 35 36 42 "]
+	28.4 [label="Cluster 28.4
+outdoor people sidewalk person walking 
+building street standing group city 
+2 5 7 28 30 31 33 34 37 38 39 40 43 44 "]
+	28.3 [label="Cluster 28.3
+indoor floor standing people building 
+group room man woman person 
+10 11 12 13 14 25 26 41 "]
+	28.2 [label="Cluster 28.2
+outdoor park sidewalk sport walking 
+tree people man city street 
+16 17 18 27 "]
+	29.1 [label="Cluster 29.1
+outdoor street road city building 
+sidewalk way walking people man 
+1 3 4 6 8 15 19 20 21 22 23 24 29 32 35 36 42 "]
+	29.4 [label="Cluster 29.4
+outdoor sidewalk people street building 
+walking city group person standing 
+2 5 7 9 28 30 31 33 34 37 38 39 40 43 44 "]
+	29.3 [label="Cluster 29.3
+floor indoor standing people group 
+building person room man woman 
+10 11 12 13 14 25 26 41 "]
+	29.2 [label="Cluster 29.2
+outdoor park sidewalk sport walking 
+tree people man city street 
+16 17 18 27 "]
+	30.1 [label="Cluster 30.1
+outdoor street road city sidewalk 
+building walking people man standing 
+1 3 4 6 8 15 19 20 21 22 23 24 32 35 36 37 42 "]
+	30.4 [label="Cluster 30.4
+outdoor sidewalk street walking building 
+city people standing man group 
+2 5 7 9 28 29 30 31 33 34 38 39 40 43 44 "]
+	30.2 [label="Cluster 30.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	30.3 [label="Cluster 30.3
+floor indoor standing people group 
+building person room man woman 
+10 11 12 13 14 25 26 41 "]
+	31.1 [label="Cluster 31.1
+outdoor street road city sidewalk 
+building walking people man standing 
+1 3 4 8 15 19 20 21 22 23 24 32 35 36 37 42 "]
+	31.4 [label="Cluster 31.4
+outdoor sidewalk street building walking 
+people city standing group person 
+2 5 6 7 9 28 29 30 31 33 34 38 39 40 43 44 "]
+	31.3 [label="Cluster 31.3
+indoor floor standing people group 
+building person woman man room 
+10 11 12 13 14 25 26 41 "]
+	31.2 [label="Cluster 31.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	32.1 [label="Cluster 32.1
+outdoor street road city sidewalk 
+walking building people man standing 
+1 3 4 6 8 15 16 19 20 21 22 23 24 32 35 36 42 "]
+	32.4 [label="Cluster 32.4
+outdoor sidewalk street people city 
+building walking standing group man 
+2 5 7 9 28 29 30 31 33 34 37 38 39 40 43 44 "]
+	32.3 [label="Cluster 32.3
+indoor floor standing people group 
+building person woman man room 
+10 11 12 13 14 25 26 41 "]
+	32.2 [label="Cluster 32.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+17 18 27 "]
+	33.1 [label="Cluster 33.1
+outdoor street road city sidewalk 
+building walking riding people man 
+1 3 4 6 8 9 15 16 19 20 21 22 23 24 28 32 35 36 37 42 44 "]
+	33.4 [label="Cluster 33.4
+outdoor people sidewalk building person 
+walking group street standing city 
+2 5 7 29 30 31 33 34 38 39 40 43 "]
+	33.3 [label="Cluster 33.3
+indoor floor standing people group 
+building person woman man room 
+10 11 12 13 14 25 26 41 "]
+	33.2 [label="Cluster 33.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+17 18 27 "]
+	34.1 [label="Cluster 34.1
+outdoor street road city building 
+sidewalk riding man standing traffic 
+1 3 4 6 8 9 15 19 20 21 22 23 24 32 35 36 37 42 44 "]
+	34.4 [label="Cluster 34.4
+outdoor sidewalk people building person 
+street walking city group standing 
+2 5 7 28 29 30 31 33 34 38 39 40 43 "]
+	34.3 [label="Cluster 34.3
+indoor floor standing people group 
+building person man room woman 
+10 11 12 13 14 25 26 41 "]
+	34.2 [label="Cluster 34.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	35.1 [label="Cluster 35.1
+outdoor street road city building 
+sidewalk riding traffic man standing 
+1 3 4 6 8 9 15 19 20 21 22 23 24 32 35 36 37 42 "]
+	35.4 [label="Cluster 35.4
+outdoor sidewalk street walking people 
+city building person group standing 
+2 5 7 28 29 30 31 33 34 38 39 40 43 44 "]
+	35.3 [label="Cluster 35.3
+indoor floor standing people group 
+building person man room woman 
+10 11 12 13 14 25 26 41 "]
+	35.2 [label="Cluster 35.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	36.1 [label="Cluster 36.1
+outdoor street road city building 
+sidewalk traffic riding man standing 
+1 3 4 6 8 9 15 16 19 20 21 22 23 24 32 35 36 37 42 "]
+	36.4 [label="Cluster 36.4
+outdoor sidewalk street building city 
+walking people standing man woman 
+2 5 7 28 29 30 31 33 34 38 39 40 43 44 "]
+	36.3 [label="Cluster 36.3
+floor indoor people group standing 
+person building woman man room 
+10 11 12 13 14 25 26 41 "]
+	36.2 [label="Cluster 36.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+17 18 27 "]
+	37.1 [label="Cluster 37.1
+outdoor road street city sidewalk 
+building traffic standing people walking 
+1 3 4 8 15 16 19 20 21 22 23 24 32 35 36 37 42 "]
+	37.4 [label="Cluster 37.4
+outdoor sidewalk street city building 
+people walking way standing man 
+2 5 6 7 9 28 29 30 31 33 34 38 39 40 43 44 "]
+	37.3 [label="Cluster 37.3
+floor indoor people group standing 
+person building woman man room 
+10 11 12 13 14 25 26 41 "]
+	37.2 [label="Cluster 37.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+17 18 27 "]
+	38.1 [label="Cluster 38.1
+outdoor road street city traffic 
+sidewalk building standing people riding 
+1 3 8 15 19 20 21 22 23 24 32 35 36 42 "]
+	38.4 [label="Cluster 38.4
+outdoor sidewalk street city building 
+people walking standing man group 
+2 4 5 6 7 9 28 29 30 31 33 34 37 38 39 43 44 "]
+	38.3 [label="Cluster 38.3
+floor indoor people group standing 
+person building woman man room 
+10 11 12 13 14 25 26 40 41 "]
+	38.2 [label="Cluster 38.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	39.1 [label="Cluster 39.1
+outdoor road street city sidewalk 
+building traffic standing people riding 
+1 3 6 8 15 19 20 21 22 23 24 32 35 36 42 "]
+	39.4 [label="Cluster 39.4
+outdoor sidewalk building street city 
+people walking man standing group 
+2 4 5 7 9 28 29 30 31 33 34 37 38 39 43 44 "]
+	39.3 [label="Cluster 39.3
+floor indoor people group standing 
+person building room woman man 
+10 11 12 13 14 25 26 40 41 "]
+	39.2 [label="Cluster 39.2
+outdoor park sidewalk tree sport 
+walking people street man city 
+16 17 18 27 "]
+	"0,0" -> 1.1 [label="Pw: 1"]
+	"0,0" -> 1.2 [label="Pw: 2"]
+	1.1 -> 2.1 [label="Pw: 1"]
+	1.2 -> 2.2 [label="Pw: 2"]
+	1.2 -> 2.3 [label="Pw: 3"]
+	2.1 -> 3.1 [label="Pw: 1"]
+	2.2 -> 3.2 [label="Pw: 2"]
+	2.3 -> 3.3 [label="Pw: 3"]
+	3.1 -> 4.1 [label="Pw: 1"]
+	3.2 -> 4.2 [label="Pw: 2"]
+	3.3 -> 4.3 [label="Pw: 3"]
+	4.1 -> 5.1 [label="Pw: 1"]
+	4.2 -> 5.2 [label="Pw: 2"]
+	4.3 -> 5.3 [label="Pw: 3"]
+	5.1 -> 6.1 [label="Pw: 1"]
+	5.2 -> 6.2 [label="Pw: 2"]
+	5.3 -> 6.3 [label="Pw: 3"]
+	6.1 -> 7.1 [label="Pw: 1"]
+	6.2 -> 7.2 [label="Pw: 2"]
+	6.3 -> 7.3 [label="Pw: 3"]
+	7.1 -> 8.1 [label="Pw: 1"]
+	7.2 -> 8.2 [label="Pw: 2"]
+	7.3 -> 8.3 [label="Pw: 3"]
+	8.1 -> 9.1 [label="Pw: 1"]
+	8.2 -> 9.2 [label="Pw: 2"]
+	8.3 -> 9.3 [label="Pw: 3"]
+	9.1 -> 10.1 [label="Pw: 1"]
+	9.2 -> 10.2 [label="Pw: 2"]
+	9.3 -> 10.3 [label="Pw: 3"]
+	10.1 -> 11.1 [label="Pw: 1"]
+	10.2 -> 11.2 [label="Pw: 2"]
+	10.3 -> 11.3 [label="Pw: 3"]
+	11.1 -> 12.1 [label="Pw: 1"]
+	11.2 -> 12.2 [label="Pw: 2"]
+	11.3 -> 12.3 [label="Pw: 3"]
+	12.1 -> 13.1 [label="Pw: 1"]
+	12.2 -> 13.2 [label="Pw: 2"]
+	12.3 -> 13.3 [label="Pw: 3"]
+	13.1 -> 14.1 [label="Pw: 1"]
+	13.2 -> 14.2 [label="Pw: 2"]
+	13.3 -> 14.3 [label="Pw: 3"]
+	14.1 -> 15.1 [label="Pw: 1"]
+	14.2 -> 15.2 [label="Pw: 2"]
+	14.2 -> 15.4 [label="Pw: 4"]
+	14.3 -> 15.3 [label="Pw: 3"]
+	15.1 -> 16.1 [label="Pw: 1"]
+	15.2 -> 16.2 [label="Pw: 2"]
+	15.4 -> 16.4 [label="Pw: 4"]
+	15.3 -> 16.3 [label="Pw: 3"]
+	16.1 -> 17.1 [label="Pw: 1"]
+	16.2 -> 17.2 [label="Pw: 2"]
+	16.4 -> 17.4 [label="Pw: 4"]
+	16.3 -> 17.3 [label="Pw: 3"]
+	17.1 -> 18.1 [label="Pw: 1"]
+	17.2 -> 18.2 [label="Pw: 2"]
+	17.4 -> 18.4 [label="Pw: 4"]
+	17.3 -> 18.3 [label="Pw: 3"]
+	18.1 -> 19.1 [label="Pw: 1"]
+	18.2 -> 19.2 [label="Pw: 2"]
+	18.4 -> 19.4 [label="Pw: 4"]
+	18.3 -> 19.3 [label="Pw: 3"]
+	19.1 -> 20.1 [label="Pw: 1"]
+	19.2 -> 20.2 [label="Pw: 2"]
+	19.4 -> 20.4 [label="Pw: 4"]
+	19.3 -> 20.3 [label="Pw: 3"]
+	20.1 -> 21.1 [label="Pw: 1"]
+	20.4 -> 21.4 [label="Pw: 4"]
+	20.3 -> 21.3 [label="Pw: 3"]
+	20.2 -> 21.2 [label="Pw: 2"]
+	21.1 -> 22.1 [label="Pw: 1"]
+	21.4 -> 22.4 [label="Pw: 4"]
+	21.3 -> 22.3 [label="Pw: 3"]
+	21.2 -> 22.2 [label="Pw: 2"]
+	22.1 -> 23.1 [label="Pw: 1"]
+	22.4 -> 23.4 [label="Pw: 4"]
+	22.3 -> 23.3 [label="Pw: 3"]
+	22.2 -> 23.2 [label="Pw: 2"]
+	23.1 -> 24.1 [label="Pw: 1"]
+	23.4 -> 24.4 [label="Pw: 4"]
+	23.3 -> 24.3 [label="Pw: 3"]
+	23.2 -> 24.2 [label="Pw: 2"]
+	24.1 -> 25.1 [label="Pw: 1"]
+	24.4 -> 25.4 [label="Pw: 4"]
+	24.3 -> 25.3 [label="Pw: 3"]
+	24.2 -> 25.2 [label="Pw: 2"]
+	25.1 -> 26.1 [label="Pw: 1"]
+	25.4 -> 26.4 [label="Pw: 4"]
+	25.3 -> 26.3 [label="Pw: 3"]
+	25.2 -> 26.2 [label="Pw: 2"]
+	26.1 -> 27.1 [label="Pw: 1"]
+	26.4 -> 27.4 [label="Pw: 4"]
+	26.3 -> 27.3 [label="Pw: 3"]
+	26.2 -> 27.2 [label="Pw: 2"]
+	27.1 -> 28.1 [label="Pw: 1"]
+	27.4 -> 28.4 [label="Pw: 4"]
+	27.3 -> 28.3 [label="Pw: 3"]
+	27.2 -> 28.2 [label="Pw: 2"]
+	28.1 -> 29.1 [label="Pw: 1"]
+	28.4 -> 29.4 [label="Pw: 4"]
+	28.3 -> 29.3 [label="Pw: 3"]
+	28.2 -> 29.2 [label="Pw: 2"]
+	29.1 -> 30.1 [label="Pw: 1"]
+	29.4 -> 30.4 [label="Pw: 4"]
+	29.2 -> 30.2 [label="Pw: 2"]
+	29.3 -> 30.3 [label="Pw: 3"]
+	30.1 -> 31.1 [label="Pw: 1"]
+	30.4 -> 31.4 [label="Pw: 4"]
+	30.3 -> 31.3 [label="Pw: 3"]
+	30.2 -> 31.2 [label="Pw: 2"]
+	31.1 -> 32.1 [label="Pw: 1"]
+	31.4 -> 32.4 [label="Pw: 4"]
+	31.3 -> 32.3 [label="Pw: 3"]
+	31.2 -> 32.2 [label="Pw: 2"]
+	32.1 -> 33.1 [label="Pw: 1"]
+	32.4 -> 33.4 [label="Pw: 4"]
+	32.3 -> 33.3 [label="Pw: 3"]
+	32.2 -> 33.2 [label="Pw: 2"]
+	33.1 -> 34.1 [label="Pw: 1"]
+	33.4 -> 34.4 [label="Pw: 4"]
+	33.3 -> 34.3 [label="Pw: 3"]
+	33.2 -> 34.2 [label="Pw: 2"]
+	34.1 -> 35.1 [label="Pw: 1"]
+	34.4 -> 35.4 [label="Pw: 4"]
+	34.3 -> 35.3 [label="Pw: 3"]
+	34.2 -> 35.2 [label="Pw: 2"]
+	35.1 -> 36.1 [label="Pw: 1"]
+	35.4 -> 36.4 [label="Pw: 4"]
+	35.3 -> 36.3 [label="Pw: 3"]
+	35.2 -> 36.2 [label="Pw: 2"]
+	36.1 -> 37.1 [label="Pw: 1"]
+	36.4 -> 37.4 [label="Pw: 4"]
+	36.3 -> 37.3 [label="Pw: 3"]
+	36.2 -> 37.2 [label="Pw: 2"]
+	37.1 -> 38.1 [label="Pw: 1"]
+	37.4 -> 38.4 [label="Pw: 4"]
+	37.3 -> 38.3 [label="Pw: 3"]
+	37.2 -> 38.2 [label="Pw: 2"]
+	38.1 -> 39.1 [label="Pw: 1"]
+	38.4 -> 39.4 [label="Pw: 4"]
+	38.3 -> 39.3 [label="Pw: 3"]
+	38.2 -> 39.2 [label="Pw: 2"]
+}

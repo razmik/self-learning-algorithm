@@ -1,0 +1,7 @@
+Performance Enhancement for the GSOM algorithm
+
+Following changes are made in this regard;
+
+1. Branched the core3.
+2. Ability to disable temporal contexts. Make temporal_contexts = 1
+3. High speedup if no temporal contexts.
