@@ -5,9 +5,9 @@
 This repository contains python implementations of self-organizing algorithms.
 The algorithm suite contains;  
 
-1. Self-Organizing Maps (SOM) by PyMVPA 
-2. Growing Self-Organizing Maps (GSOM) by CDAC  
-3. Incremental Knowledge Acquisition and Self Learning (IKASL) by CDAC
+1. Growing Self-Organizing Maps (GSOM) by [CDAC](https://www.latrobe.edu.au/centre-for-data-analytics-and-cognition)   
+2. Incremental Knowledge Acquisition and Self Learning (IKASL) by [CDAC](https://www.latrobe.edu.au/centre-for-data-analytics-and-cognition)
+3. Self-Organizing Maps (SOM) by [PyMVPA](http://www.pymvpa.org/)  
 
 The usage of the implementations are as follows:
   
