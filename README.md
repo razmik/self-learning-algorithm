@@ -7,7 +7,8 @@ The algorithm suite contains;
 
 1. Growing Self-Organizing Maps (GSOM) by [CDAC](https://www.latrobe.edu.au/centre-for-data-analytics-and-cognition)   
 2. Incremental Knowledge Acquisition and Self Learning (IKASL) by [CDAC](https://www.latrobe.edu.au/centre-for-data-analytics-and-cognition)
-3. Self-Organizing Maps (SOM) by [PyMVPA](http://www.pymvpa.org/)  
+3. Self-Organizing Maps (SOM) by [PyMVPA](http://www.pymvpa.org/) 
+4. Uniform Manifold Approximation and Projection (UMAP)  [umap-learn](https://pypi.org/project/umap-learn/) 
 
 The usage of the implementations are as follows:
   
@@ -64,3 +65,8 @@ I have setup a sample using human activity video dataset, where features are ext
 **_SOM_**
 
 Please refer: http://www.pymvpa.org/examples/som.html
+
+**_UMAP_**
+
+Please refer: https://umap-learn.readthedocs.io/en/latest/basic_usage.html
+
